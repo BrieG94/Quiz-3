@@ -9,6 +9,7 @@ int main ()
 int num1 , num2 , num3 ;
 int sum ; 
 double avg;
+
 srand ( time(0) );
 
 num1= rand() % 100 ;
@@ -21,7 +22,10 @@ num3= rand() % 100 ;
 cout << num3 << endl;
 
 sum = num1 + num2 + num3;
+cout << sum << endl ;
 
 avg = sum/3.0;
+cout << avg << endl;
+
 
 }
